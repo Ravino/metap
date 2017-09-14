@@ -40,7 +40,7 @@
   module.exports = {
     "data": function () {
       return {
-        "header": "Страница 1"
+        "header": "Как работают незрячие программисты"
       };
     },
 

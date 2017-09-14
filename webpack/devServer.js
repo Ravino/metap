@@ -11,6 +11,8 @@ module.exports = {
 //  "overlay": true,
   "port": 3000,
   "publicPath": "/",
+  "host": "0.0.0.0",
+  "useLocalIp": true,
   "proxy": {
     "/api": "http://localhost:3010"
   }

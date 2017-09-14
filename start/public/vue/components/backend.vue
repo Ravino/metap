@@ -31,6 +31,21 @@
     </div>
 
 
+    <div class="row">
+      <div class="left">
+      </div>
+
+
+      <div class="center">
+        <code-page />
+      </div>
+
+
+      <div class="right">
+      </div>
+    </div>
+
+
 
   </div>
 </template>
@@ -46,7 +61,8 @@
 
     "components": {
       "header-page": require ("./base/header.vue"),
-      "menu-page": require ("./base/menu.vue")
+      "menu-page": require ("./base/menu.vue"),
+      "code-page": require ("./backend/code.vue"),
     }
   };
 </script>

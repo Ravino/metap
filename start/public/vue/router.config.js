@@ -10,6 +10,10 @@ module.exports = () => {
       { "path": "/frontend", "component": require ("./components/frontend.vue") },
       { "path": "/good-access", "component": require ("./components/good-access.vue") },
       { "path": "/bad-access", "component": require ("./components/bad-access.vue") },
+      { "path": "/technology-base", "component": require ("./components/technology-base.vue") },
+      { "path": "/technology-development", "component": require ("./components/technology-development.vue") },
+      { "path": "/programmer", "component": require ("./components/programmer.vue") },
+      { "path": "/i-accessibility", "component": require ("./components/iAccessibility.vue") }
     ]
   };
 };

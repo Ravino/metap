@@ -31,19 +31,7 @@
     </div>
 
 
-    <div class="row">
-      <div class="left">
-      </div>
 
-
-      <div class="center">
-        <examples-page :arrExamples="examples" />
-      </div>
-
-
-      <div class="right">
-      </div>
-    </div>
   </div>
 </template>
 
@@ -52,19 +40,13 @@
   module.exports = {
     "data": function () {
       return {
-        "header": "Примеры доступных веб-интерфейсов",
-
-        "examples": [
-          { "path": "http://mail.nekrasov.pw", "name": "Yandex" },
-          { "path": "http://kremlin.ru", "name": "Kremlin.ru" },
-        ]
+        "header": "Как ты стал заниматься доступностью?"
       };
     },
 
     "components": {
       "header-page": require ("./base/header.vue"),
-      "menu-page": require ("./base/menu.vue"),
-      "examples-page": require ("./base/examples.vue")
+      "menu-page": require ("./base/menu.vue")
     }
   };
 </script>
